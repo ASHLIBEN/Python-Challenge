@@ -24,10 +24,13 @@ TypeError: can only concatenate str (not "float") to str
 (base) Ashlis-MacBook-Air:Python-Challenge ashliben$ 
 ---------------------------------------
 
+
+
+
 Final output
 Financial Analysis
 .....................................
-Total Months:86
+Total Months:86 
 Total:$22564198
 Average change:$-8311.105882352942
 Greatest increase in profits:Aug-16$1862002

@@ -2,14 +2,15 @@
 import os
 import csv
 
-#Set path for csv file
-csvpath = os.path.join("/Users/ashliben/Desktop/Python-Challenge/PyBank/Resources","budget_data.csv")
+#Set path for csv file to a variable
+csvpath = os.path.join("/Users/ashliben/Desktop/Python-Challenge/Python-Challenge/PyBank/Resources","budget_data.csv")
 
-#Variable declaration
+#Variable declaration and initialization
 total_months=[]
 total_profits=[]
 profit_changes=[]
 monthly_changes=[]
+
 #Open CSV file
 
 with open(csvpath,newline="") as csvfile:
