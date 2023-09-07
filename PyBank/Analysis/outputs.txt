@@ -1,0 +1,52 @@
+------------------------
+1st output
+
+Financial Analysis
+.....................................
+Total Months:86
+Total:$22564198
+Traceback (most recent call last):
+  File "/Users/ashliben/Desktop/Python-Challenge/PyBank/Main.py", line 40, in <module>
+    print("Average change:" + "$" +(profit_changes))
+TypeError: can only concatenate str (not "list") to str
+(base) Ashlis-MacBook-Air:Python-Challenge ashliben$ /usr/bin/python3 /Users/ashliben/Desktop/Python-Challenge/PyBank/Main.py
+-------------------------------
+2nd output
+
+Financial Analysis
+.....................................
+Total Months:86
+Total:$22564198
+Traceback (most recent call last):
+  File "/Users/ashliben/Desktop/Python-Challenge/PyBank/Main.py", line 40, in <module>
+    print("Average change:" + "$" +(monthly_changes))
+TypeError: can only concatenate str (not "float") to str
+(base) Ashlis-MacBook-Air:Python-Challenge ashliben$ 
+---------------------------------------
+
+Final output
+Financial Analysis
+.....................................
+Total Months:86
+Total:$22564198
+Average change:$-8311.105882352942
+Greatest increase in profits:Aug-16$1862002
+Greatest decrease in profits:Feb-14$-1825558
+(base) Ashlis-MacBook-Air:Python-Challenge ashliben$ 
+-----------------------------------------------------
+
+Financial Analysis
+.....................................
+  
+Total Months:86
+  
+Total:$22564198
+  
+Average change:$-8311.105882352942
+  
+Greatest increase in profits:Aug-16$1862002
+  
+Greatest decrease in profits:Feb-14$-1825558
+.....................................
+  
+(base) Ashlis-MacBook-Air:Python-Challenge ashliben$ 
