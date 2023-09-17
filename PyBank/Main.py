@@ -3,7 +3,7 @@ import os
 import csv
 
 #Set path for csv file to a variable
-csvpath = os.path.join("/Users/ashliben/Desktop/Python-Challenge/Python-Challenge/PyBank/Resources","budget_data.csv")
+csvpath = os.path.join("Resources","budget_data.csv")
 
 #Variable declaration and initialization
 total_months=[]
