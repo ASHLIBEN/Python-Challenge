@@ -3,7 +3,7 @@ import csv
 import os
 
 #Set path for csv file to a variable
-csvpath = os.path.join("/Users/ashliben/Desktop/Python-Challenge/Python-Challenge/PyPoll/Resources","election_data.csv")
+csvpath = os.path.join("Resources","election_data.csv")
 
 
 #Variable declaration and initialization
